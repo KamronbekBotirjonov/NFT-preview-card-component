@@ -1,0 +1,106 @@
+* {
+    font-family: Outfit;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #0C182A;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    background-color: #15273F;
+    border-radius: 15px;
+    padding: 20px;
+    margin: 20px 0;
+    box-shadow: 0px -1px 43px -13px rgba(0, 0, 0, 0.75);
+}
+
+.cart {
+    display: flex;
+    flex-direction: column;
+}
+
+.cub {
+    width: 270px;
+    align-self: center;
+    border-radius: 10px;
+}
+
+h1 {
+    color: white;
+    font-size: larger;
+    margin: 25px 0;
+}
+
+h1:hover {
+    color: #31ABAC;
+    transition: .5s;
+}
+
+h3 {
+    width: 270px;
+    color: #687D99;
+    font-weight: 400;
+}
+
+.a {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.b {
+    display: flex;
+    align-items: center;
+    margin: 10px 10px 0 0;
+    gap: 15px;
+}
+
+p {
+    margin: 25px 0;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+hr {
+    border: none;
+    height: 1px;
+    background-color: #293B53;
+}
+
+.ethereum {
+    color: #31ABAC;
+    font-weight: 700;
+}
+
+.clock {
+    color: #8598B7;
+}
+
+.icon {
+    border-radius: 50%;
+    border: 2px solid white;
+    width: 35px;
+}
+
+.crof {
+    color: #6D829E;
+    font-weight: 500;
+}
+
+.name:hover {
+    color: #31ABAC;
+    transition: .5s;
+}
+
+span {
+    color: white;
+    font-weight: 500;
+}
